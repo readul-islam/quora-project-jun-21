@@ -36,7 +36,7 @@ const Srevices = () => {
     <section className="bg-gradient-to-tr py-24 from-neutral to-accent ">
       <div className="max-w-7xl mx-auto ">
         <h1 className="text-2xl md:text-3xl lg:text-4xl pb-10 text-secondary font-bold font-serif text-center ">Our Popular Course</h1>
-        <motion.div 
+        <motion.div className="mx-6 md:mx-0"
         initial={{y:50, opacity: 0}}
         whileInView={{y:0, opacity: 1}}
         transition={{delay:.5, duration:0.8}}

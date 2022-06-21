@@ -59,7 +59,8 @@ const Banner = () => {
           </div>
         </div>
         {/* card */}
-        <div class="card w-full bg-white text-primary-content shadow-xl py-4 mt-10 ">
+        <div class="card w-full 
+         bg-white text-primary-content shadow-xl py-4 mt-10 ">
           <div
           
           

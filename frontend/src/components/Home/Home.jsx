@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Banner from "./Banner";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import Services from './Services'
+import Footer from "../Shared/Footer";
 
 const Home = () => {
   const [scroll, setScroll] = useState(false);
@@ -27,6 +28,7 @@ const Home = () => {
     <>
       <Banner />
       <Services/>
+      <Footer/>
       <div
         onClick={scrollTop}
         class={` bottom-10 fixed right-7 ${
