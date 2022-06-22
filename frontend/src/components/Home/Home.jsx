@@ -5,6 +5,8 @@ import Services from './Services'
 import Footer from "../Shared/Footer";
 import ChartSection from "./ChartSection";
 import OurSuccess from "./OurSuccess";
+import Courses from "./Courses/Courses";
+
 
 const Home = () => {
   const [scroll, setScroll] = useState(false);
@@ -32,6 +34,7 @@ const Home = () => {
       <Services/>
       <ChartSection/>
       <OurSuccess/>
+      <Courses/>
       <Footer/>
       <div
         onClick={scrollTop}
