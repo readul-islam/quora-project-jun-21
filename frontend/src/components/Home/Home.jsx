@@ -4,6 +4,7 @@ import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import Services from './Services'
 import Footer from "../Shared/Footer";
 import ChartSection from "./ChartSection";
+import OurSuccess from "./OurSuccess";
 
 const Home = () => {
   const [scroll, setScroll] = useState(false);
@@ -30,6 +31,7 @@ const Home = () => {
       <Banner />
       <Services/>
       <ChartSection/>
+      <OurSuccess/>
       <Footer/>
       <div
         onClick={scrollTop}
