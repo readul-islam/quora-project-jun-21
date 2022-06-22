@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import Services from './Services'
 import Footer from "../Shared/Footer";
+import ChartSection from "./ChartSection";
 
 const Home = () => {
   const [scroll, setScroll] = useState(false);
@@ -28,10 +29,11 @@ const Home = () => {
     <>
       <Banner />
       <Services/>
+      <ChartSection/>
       <Footer/>
       <div
         onClick={scrollTop}
-        class={` bottom-10 fixed right-7 ${
+        className={` bottom-10 fixed right-7 ${
           scroll ? "block" : "hidden"
         }`}
       >
