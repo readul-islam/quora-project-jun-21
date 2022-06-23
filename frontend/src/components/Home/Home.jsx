@@ -6,6 +6,8 @@ import Footer from "../Shared/Footer";
 import ChartSection from "./ChartSection";
 import OurSuccess from "./OurSuccess";
 import Courses from "./Courses/Courses";
+import Navbar from "../Shared/Navbar";
+
 
 
 const Home = () => {
@@ -30,13 +32,7 @@ const Home = () => {
   console.log(scroll);
   return (
     <>
-      <Banner />
-      <Services/>
-      <ChartSection/>
-      <OurSuccess/>
-      <Courses/>
-      <Footer/>
-      <div
+     <div
         onClick={scrollTop}
         className={` bottom-10 fixed right-7 ${
           scroll ? "block" : "hidden"
@@ -44,6 +40,15 @@ const Home = () => {
       >
         <BsFillArrowUpCircleFill size={35} className='text-red-500 hover:shadow-red-500 rounded-full  hover:shadow-lg' />
       </div>
+      <Navbar />
+      <Banner />
+      <Services/>
+      <ChartSection/>
+      <OurSuccess/>
+    
+     <Courses/>
+      <Footer/>
+     
     </>
   );
 };

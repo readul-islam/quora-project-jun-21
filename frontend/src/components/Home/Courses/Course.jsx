@@ -1,25 +1,10 @@
+import React from 'react';
 import {  motion } from "framer-motion";
 
-import axios from 'axios';
-import React, { useEffect } from 'react';
-import { useState } from 'react';
-const AllCourse = () => {
-    const [allProducts,setAllProducts] = useState([])
-    useEffect(() =>{
-        const Products = async()=>{
-
-            const {data} = await axios.get('https://jsonplaceholder.typicode.com/albums')
-                    console.log(data);
-                    setAllProducts(data)
-                }
-                Products()
-
-    },[])
+const Course = ({course}) => {
     return (
-       
-         <>
-         {allProducts.slice(0,9).map(p =>
-          <motion.div
+        <>
+         <motion.div
           initial={{  opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.9 }}
@@ -44,20 +29,16 @@ const AllCourse = () => {
             <p>If a dog chews shoes whose shoes does he choose?</p>
            
           <div class="card-actions pt-14   justify-between">
-          <div class="btn btn-secondary text-white">Fashion</div>
-              <div class="btn btn-secondary text-white">Products</div>
+          <div class="btn btn-secondary text-white">Details</div>
+              <div class="btn bg-[#F5BE37] font-bold text-black">Add to cart</div>
             </div>
          
           </div>
           </motion.div>
         </motion.div>
-         )}
-       
-       
-  
             
         </>
     );
 };
 
-export default AllCourse;
+export default Course;
