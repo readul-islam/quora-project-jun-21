@@ -23,9 +23,9 @@ const Courses = () => {
     return (
         <section className='most-popular-course'>
         <div className=''>
-        <div class=" flex justify-center">
-          <div class=" navbar-center  lg:flex">
-            <ul class="menu md:menu-horizontal p-0">
+        <div className=" flex justify-center">
+          <div className=" navbar-center  lg:flex">
+            <ul className="menu md:menu-horizontal p-0">
               <li>
                 <a >ALL</a>
               </li>

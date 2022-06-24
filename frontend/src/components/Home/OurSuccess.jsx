@@ -43,28 +43,28 @@ const OurSuccess = () => {
       <h1 className="text-xl md:text-3xl px-6 text-center  lg:text-5xl pb-4 text-secondary font-bold font-serif">
         Our Success
       </h1>
-      <div class="divider mx-auto bg-red-500 h-[2px] w-32 mb-12"></div>
-      <div class="grid grid-cols-1 text-white md:grid-cols-2 lg:grid-cols-4 gap-4 content-center  text-center max-w-7xl mx-auto">
-        <div class="flex flex-col mx-6 py-6 bg-gradient-to-r from-[#0D0541]/95 to-[#0D0541]  rounded-box ">
-          <span class="font-mono text-5xl">
+      <div className="divider mx-auto bg-red-500 h-[2px] w-32 mb-12"></div>
+      <div className="grid grid-cols-1 text-white md:grid-cols-2 lg:grid-cols-4 gap-4 content-center  text-center max-w-7xl mx-auto">
+        <div className="flex flex-col mx-6 py-6 bg-gradient-to-r from-[#0D0541]/95 to-[#0D0541]  rounded-box ">
+          <span className="font-mono text-5xl">
             <span id="student"></span>
           </span>
           <span className="font-semibold font-mono">student</span>
         </div>
-        <div class="flex flex-col py-6 mx-6 bg-gradient-to-r from-[#0D0541]/95 to-[#0D0541] rounded-box ">
-          <span class=" font-mono text-5xl">
+        <div className="flex flex-col py-6 mx-6 bg-gradient-to-r from-[#0D0541]/95 to-[#0D0541] rounded-box ">
+          <span className=" font-mono text-5xl">
             <span id="intership"> </span>
           </span>
           <span className="font-semibold font-mono">InternShip</span>
         </div>
-        <div class="flex flex-col py-6 mx-6 bg-gradient-to-r from-[#0D0541]/95 to-[#0D0541]   rounded-box ">
-          <span class=" font-mono text-5xl">
+        <div className="flex flex-col py-6 mx-6 bg-gradient-to-r from-[#0D0541]/95 to-[#0D0541]   rounded-box ">
+          <span className=" font-mono text-5xl">
             <span id="job"></span>
           </span>
           <span className="font-semibold font-mono">Job</span>
         </div>
-        <div class="flex flex-col py-6 mx-6 bg-gradient-to-r from-[#0D0541]/95 to-[#0D0541]   rounded-box ">
-          <span class="font-mono text-5xl">
+        <div className="flex flex-col py-6 mx-6 bg-gradient-to-r from-[#0D0541]/95 to-[#0D0541]   rounded-box ">
+          <span className="font-mono text-5xl">
             <span id="hairing"></span>
           </span>
           <span className="font-semibold font-mono">Hairing</span>
